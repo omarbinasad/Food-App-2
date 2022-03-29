@@ -45,19 +45,18 @@
   display: flex;
 }
 
-.card-bottom-btn {
-  border: none;
-}
+
 .card-bottom > h3 {
   font-size: 30px;
   font-weight: 600;
   color: #ff5c00;
 }
-.card-bottom > button {
+.card-bottom-btn {
+  border: none;
   background-color: transparent;
 }
-.card-bottom > button > i {
+.card-bottom-btn > i {
   font-size: 30px;
-
   color: #2461ff;
+
 }

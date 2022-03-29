@@ -1,3 +1,8 @@
+.bestOffers-div-main {
+  display: flex;
+  gap: 0px 10px;
+  margin: 38px 0px;
+}
 .bestOffers-title-div {
   display: flex;
   justify-content: space-between;
@@ -18,8 +23,31 @@
   text-align: start;
 }
 
-.bestOffers-div {
+.bestOffers-text-div {
   display: flex;
-  gap: 0px 10px;
-  margin: 38px 0px;
+  align-items: center;
+}
+.bestOffers-text-div > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.bestOffers-btn-div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.bestOffers-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.bestOffers-btn i {
+  font-size: 30px;
+  color: #ff5c00;
+}
+.bestOffer-div {
+  display: flex;
+  background-color: #f9bf6a;
+  border-radius: 10px;
+  padding: 10px;
 }
