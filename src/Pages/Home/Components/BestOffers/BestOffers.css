@@ -51,3 +51,6 @@
   border-radius: 10px;
   padding: 10px;
 }
+.bestOffer-div:nth-child(2n) {
+  background-color: #ffdbaf;
+}

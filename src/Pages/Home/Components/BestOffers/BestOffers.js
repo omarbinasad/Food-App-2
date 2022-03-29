@@ -24,7 +24,21 @@ const BestOffers = () => {
             </button>
           </div>
         </div>
-        <div></div>
+        <div className="bestOffer-div">
+          <div className="bestOffers-img-div">
+            <img src="/images/bestoffer2.png" alt="" />
+          </div>
+          <div className=" bestOffers-text-div">
+            <p>
+              Get Fresh <br /> Start At 50/- <br /> only
+            </p>
+          </div>
+          <div className=" bestOffers-btn-div">
+            <button className="bestOffers-btn">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
