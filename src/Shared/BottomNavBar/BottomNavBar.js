@@ -14,16 +14,52 @@ const BottomNavBar = () => {
     <div className="BottomNavBar-main-div">
       <Box sx={{ width: 500, margin: "auto" }}>
         <BottomNavigation
+          sx={{
+            color: "#7C90B8",
+          }}
           showLabels
           value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="Home" icon={<HomeIcon />} />
-          <BottomNavigationAction label="Search" icon={<SearchIcon />} />
-          <BottomNavigationAction label="Cart" icon={<ShoppingCartIcon />} />
           <BottomNavigationAction
+            sx={{
+              color: "#7C90B8",
+              "&.Mui-selected": {
+                color: "#FF5C00",
+              },
+            }}
+            label="Home"
+            icon={<HomeIcon />}
+          />
+          <BottomNavigationAction
+            sx={{
+              color: "#7C90B8",
+              "&.Mui-selected": {
+                color: "#FF5C00",
+              },
+            }}
+            label="Search"
+            icon={<SearchIcon />}
+          />
+          <BottomNavigationAction
+            sx={{
+              color: "#7C90B8",
+              "&.Mui-selected": {
+                color: "#FF5C00",
+              },
+            }}
+            label="Cart"
+            icon={<ShoppingCartIcon />}
+          />
+          <BottomNavigationAction
+            sx={{
+              color: "#7C90B8",
+              "&.Mui-selected": {
+                color: "#FF5C00",
+              },
+            }}
             label="Profile"
             icon={<AccountCircleIcon />}
           />
