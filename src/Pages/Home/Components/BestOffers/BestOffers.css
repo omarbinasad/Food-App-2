@@ -18,9 +18,9 @@
   color: #1c1c1c;
   font-size: 22px;
   font-weight: 600;
-
   display: flex;
   text-align: start;
+  margin: 0;
 }
 
 .bestOffers-text-div {
