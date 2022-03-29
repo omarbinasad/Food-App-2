@@ -12,7 +12,7 @@ const BottomNavBar = () => {
   const [value, setValue] = React.useState(0);
   return (
     <div className="BottomNavBar-main-div">
-      <Box sx={{ width: 500, margin: "auto" }}>
+      <Box sx={{ width: 500, margin: "auto", padding: "40px 0px" }}>
         <BottomNavigation
           sx={{
             color: "#7C90B8",
@@ -28,6 +28,16 @@ const BottomNavBar = () => {
               color: "#7C90B8",
               "&.Mui-selected": {
                 color: "#FF5C00",
+
+                "&::after": {
+                  content: "''",
+                  position: "absolute",
+                  width: "50px",
+                  height: "15px",
+                  backgroundColor: "#FF5C00",
+                  borderRadius: "50% 50% 0 0",
+                  transform: "translateY(180%)",
+                },
               },
             }}
             label="Home"
