@@ -7,8 +7,20 @@ const SingleCard = () => {
   return (
     <div className="SingleCard">
       <div className="card-top">
-        <p>Kashmiri Chicken Biryani</p>
-        <Fab color="primary" aria-label="add">
+        <p>Kashmiri Chicken Birya..</p>
+        <Fab
+          size="small"
+          sx={{
+            backgroundColor: "#FFEEE4",
+            color: "#FF5C00",
+            boxShadow: "none",
+            "&:hover": {
+              backgroundColor: "#FFEEE4",
+            },
+          }}
+          color="primary"
+          aria-label="add"
+        >
           <AddIcon />
         </Fab>
       </div>

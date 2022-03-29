@@ -11,12 +11,12 @@ const TopPicked = () => {
       </div>
       <div className="topPicked-toggles-div">
         <FormControlLabel
-          control={<Switch defaultChecked />}
+          control={<Switch color="warning" />}
           label="Spicy"
           labelPlacement="start"
         />
         <FormControlLabel
-          control={<Switch defaultChecked />}
+          control={<Switch defaultChecked color="warning" />}
           label="Non Veg"
           labelPlacement="start"
         />

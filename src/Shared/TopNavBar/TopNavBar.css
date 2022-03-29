@@ -1,5 +1,10 @@
 .TopNavSearchBar {
   border-radius: 30px;
+  border-color: #7c90b89d;
+}
+.TopNavSearchBar:focus {
+  box-shadow: none;
+  border-color: #7c90b89d;
 }
 .has-search .form-control {
   padding-left: 2.375rem;
@@ -14,7 +19,7 @@
   line-height: 2.375rem;
   text-align: center;
   pointer-events: none;
-  color: #aaa;
+  color: #7c90b8;
 }
 .TopNavIconsDiv {
   width: 20%;
@@ -24,5 +29,4 @@
 }
 .TopNavIconsDiv i {
   cursor: pointer;
-  
 }

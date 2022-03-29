@@ -6,7 +6,7 @@ const TopNavBar = () => {
       <nav className="navbar navbar-default bg-light">
         <div className="container-fluid">
           <form className="d-flex has-search">
-            <i class="fa fa-search form-control-feedback"></i>
+            <i className="fa fa-search form-control-feedback"></i>
             <input
               className="TopNavSearchBar form-control me-2"
               type="search"
