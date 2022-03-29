@@ -58,6 +58,18 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+  .subsForm-banner {
+    padding: 30px;
+  }
+  .subsForm-banner h3 {
+    font-size: 40px;
+  }
+  .subsForm-banner h4 {
+    font-size: 20px;
+  }
+  .subsForm-banner img {
+    width: 200px;
+  }
   .subsForm {
     width: 100%;
   }

@@ -3,3 +3,28 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
 }
+.cards-exp-btn-div {
+  display: flex;
+  justify-content: center;
+}
+.cards-exp-btn {
+  width: 45%;
+  padding: 15px 15px;
+  background: #ff5c00;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 2px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .cards-div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .cards-exp-btn {
+    width: 100%;
+  }
+}

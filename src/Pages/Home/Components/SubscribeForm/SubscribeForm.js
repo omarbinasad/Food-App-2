@@ -1,9 +1,11 @@
 import React from "react";
 import "./SubscribeForm.css";
 
+
 const SubscribeForm = () => {
+  
   return (
-    <div>
+    <div className="pt-3 pb-5">
       <div className="subsForm-banner">
         <div>
           <h3>20% of</h3>
