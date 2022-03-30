@@ -38,7 +38,7 @@ const SingleCard = () => {
       <div className="card-bottom">
         <h3>₹95.00</h3>
         <button className="card-bottom-btn">
-          <i class="fa-solid fa-arrow-right-long"></i>
+          <i className="fa-solid fa-arrow-right-long"></i>
         </button>
       </div>
     </div>

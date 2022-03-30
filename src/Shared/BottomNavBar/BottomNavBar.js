@@ -12,7 +12,14 @@ const BottomNavBar = () => {
   const [value, setValue] = React.useState(0);
   return (
     <div className="BottomNavBar-main-div">
-      <Box sx={{ width: "100%", margin: "auto", padding: "40px 0px" }}>
+      <Box
+        sx={{
+          width: "100%",
+          margin: "auto",
+          padding: "40px 0px",
+          backgroundColor: "transparent",
+        }}
+      >
         <BottomNavigation
           sx={{
             color: "#7C90B8",

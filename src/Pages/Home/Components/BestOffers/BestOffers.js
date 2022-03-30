@@ -20,7 +20,7 @@ const BestOffers = () => {
           </div>
           <div className="bestOffers-btn-div">
             <button className="bestOffers-btn">
-              <i class="fa-solid fa-arrow-right-long"></i>
+              <i className="fa-solid fa-arrow-right-long"></i>
             </button>
           </div>
         </div>
@@ -35,7 +35,7 @@ const BestOffers = () => {
           </div>
           <div className=" bestOffers-btn-div">
             <button className="bestOffers-btn">
-              <i class="fa-solid fa-arrow-right-long"></i>
+              <i className="fa-solid fa-arrow-right-long"></i>
             </button>
           </div>
         </div>
