@@ -12,7 +12,7 @@ const BottomNavBar = () => {
   const [value, setValue] = React.useState(0);
   return (
     <div className="BottomNavBar-main-div">
-      <Box sx={{ width: 500, margin: "auto", padding: "40px 0px" }}>
+      <Box sx={{ width: "100%", margin: "auto", padding: "40px 0px" }}>
         <BottomNavigation
           sx={{
             color: "#7C90B8",
@@ -34,9 +34,11 @@ const BottomNavBar = () => {
                   position: "absolute",
                   width: "50px",
                   height: "15px",
-                  backgroundImage: "url('/images/bNavActive.png')",
-                  borderRadius: "50% 50% 0 0",
-                  transform: "translateY(180%)",
+                  backgroundImage: "url('/images/bNavActive.png') ",
+                  backgroundSize: "35px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  transform: "translateY(200%)",
                 },
               },
             }}
@@ -53,9 +55,11 @@ const BottomNavBar = () => {
                   position: "absolute",
                   width: "50px",
                   height: "15px",
-                  backgroundImage: "url('/images/bNavActive.png')",
-                  borderRadius: "50% 50% 0 0",
-                  transform: "translateY(180%)",
+                  backgroundImage: "url('/images/bNavActive.png') ",
+                  backgroundSize: "35px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  transform: "translateY(200%)",
                 },
               },
             }}
@@ -72,9 +76,11 @@ const BottomNavBar = () => {
                   position: "absolute",
                   width: "50px",
                   height: "15px",
-                  backgroundImage: "url('/images/bNavActive.png')",
-                  borderRadius: "50% 50% 0 0",
-                  transform: "translateY(180%)",
+                  backgroundImage: "url('/images/bNavActive.png') ",
+                  backgroundSize: "35px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  transform: "translateY(200%)",
                 },
               },
             }}
@@ -91,9 +97,11 @@ const BottomNavBar = () => {
                   position: "absolute",
                   width: "50px",
                   height: "15px",
-                  backgroundImage: "url('/images/bNavActive.png')",
-                  borderRadius: "50% 50% 0 0",
-                  transform: "translateY(180%)",
+                  backgroundImage: "url('/images/bNavActive.png') ",
+                  backgroundSize: "35px",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  transform: "translateY(200%)",
                 },
               },
             }}

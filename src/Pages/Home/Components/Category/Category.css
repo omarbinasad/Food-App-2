@@ -30,6 +30,7 @@
   font-size: 14px;
   border-radius: 20px;
   border: 1px solid #bacae4;
+  cursor: pointer;
 }
 .categories-div p:hover {
   background-color: #ff5c00;

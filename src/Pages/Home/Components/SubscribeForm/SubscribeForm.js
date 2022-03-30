@@ -1,9 +1,7 @@
 import React from "react";
 import "./SubscribeForm.css";
 
-
 const SubscribeForm = () => {
-  
   return (
     <div className="pt-3 pb-5">
       <div className="subsForm-banner">
@@ -12,7 +10,7 @@ const SubscribeForm = () => {
           <h4>Enjoy 20% discount by Subscribe our website</h4>
         </div>
         <div>
-          <img src="/images/free.png" alt="" />
+          <img className="img-fluid" src="/images/free.png" alt="" />
         </div>
       </div>
       <div className="subsForm-div">

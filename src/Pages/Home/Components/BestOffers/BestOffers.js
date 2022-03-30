@@ -10,15 +10,15 @@ const BestOffers = () => {
       </div>
       <div className="bestOffers-div-main">
         <div className="bestOffer-div">
-          <div className=" bestOffers-img-div">
-            <img src="/images/bestoffer.png" alt="" />
+          <div className="bestOffers-img-div">
+            <img className="img-fluid" src="/images/bestoffer.png" alt="" />
           </div>
-          <div className=" bestOffers-text-div">
+          <div className="bestOffers-text-div">
             <p>
-              Get Fresh <br /> Start At 50/- <br /> only
+              Get Fresh Start At 50/- only
             </p>
           </div>
-          <div className=" bestOffers-btn-div">
+          <div className="bestOffers-btn-div">
             <button className="bestOffers-btn">
               <i class="fa-solid fa-arrow-right-long"></i>
             </button>
@@ -26,11 +26,11 @@ const BestOffers = () => {
         </div>
         <div className="bestOffer-div">
           <div className="bestOffers-img-div">
-            <img src="/images/bestoffer2.png" alt="" />
+            <img className="img-fluid" src="/images/bestoffer2.png" alt="" />
           </div>
-          <div className=" bestOffers-text-div">
+          <div className="bestOffers-text-div">
             <p>
-              Get Fresh <br /> Start At 50/- <br /> only
+              Get Fresh Start At 50/- only
             </p>
           </div>
           <div className=" bestOffers-btn-div">

@@ -45,7 +45,6 @@
   display: flex;
 }
 
-
 .card-bottom > h3 {
   font-size: 30px;
   font-weight: 600;
@@ -58,5 +57,42 @@
 .card-bottom-btn > i {
   font-size: 30px;
   color: #2461ff;
+}
+/* media queries for mobile phone  */
+@media screen and (max-width: 600px) {
+  .card-middle-img-div img {
+    width: 100%;
+  }
+  .SingleCard {
+    height: auto;
+  }
+}
 
+/* media queries for tab  */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .card-middle-img-div img {
+    width: 100%;
+  }
+  .SingleCard {
+    height: auto;
+    padding: 10px;
+  }
+  .card-top > p {
+    font-size: 70%;
+  }
+  .card-middle-rating-div > h5 {
+    font-size: 80%;
+  }
+  .card-middle-rating-div > i {
+    font-size: 80%;
+  }
+  .card-middle-rating-div > h5 > span {
+    font-size: 80%;
+  }
+  .card-bottom > h3 {
+    font-size: 95%;
+  }
+  .card-bottom-btn > i {
+    font-size: 95%;
+  }
 }
