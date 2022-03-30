@@ -34,7 +34,7 @@ const BottomNavBar = () => {
                   position: "absolute",
                   width: "50px",
                   height: "15px",
-                  backgroundColor: "#FF5C00",
+                  backgroundImage: "url('/images/bNavActive.png')",
                   borderRadius: "50% 50% 0 0",
                   transform: "translateY(180%)",
                 },
@@ -48,6 +48,15 @@ const BottomNavBar = () => {
               color: "#7C90B8",
               "&.Mui-selected": {
                 color: "#FF5C00",
+                "&::after": {
+                  content: "''",
+                  position: "absolute",
+                  width: "50px",
+                  height: "15px",
+                  backgroundImage: "url('/images/bNavActive.png')",
+                  borderRadius: "50% 50% 0 0",
+                  transform: "translateY(180%)",
+                },
               },
             }}
             label="Search"
@@ -58,6 +67,15 @@ const BottomNavBar = () => {
               color: "#7C90B8",
               "&.Mui-selected": {
                 color: "#FF5C00",
+                "&::after": {
+                  content: "''",
+                  position: "absolute",
+                  width: "50px",
+                  height: "15px",
+                  backgroundImage: "url('/images/bNavActive.png')",
+                  borderRadius: "50% 50% 0 0",
+                  transform: "translateY(180%)",
+                },
               },
             }}
             label="Cart"
@@ -68,6 +86,15 @@ const BottomNavBar = () => {
               color: "#7C90B8",
               "&.Mui-selected": {
                 color: "#FF5C00",
+                "&::after": {
+                  content: "''",
+                  position: "absolute",
+                  width: "50px",
+                  height: "15px",
+                  backgroundImage: "url('/images/bNavActive.png')",
+                  borderRadius: "50% 50% 0 0",
+                  transform: "translateY(180%)",
+                },
               },
             }}
             label="Profile"
