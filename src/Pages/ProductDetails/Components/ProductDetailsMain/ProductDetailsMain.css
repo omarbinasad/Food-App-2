@@ -1,0 +1,91 @@
+.productDetails-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.productDetails-main-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 20%; */
+  margin-top: 30px;
+  margin-right: -170px;
+}
+.productDetails-main-img-div img {
+  width: 350px;
+  z-index: 1;
+}
+.productDetails-main-contents-div {
+  width: 85%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: -1px 1px 20px rgba(22, 52, 111, 0.15);
+  border-radius: 40px 0px 0px 40px;
+  padding: 30px 30px 30px 200px;
+}
+
+.productDetails-main-contents-span-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.productDetails-main-contents-span-div span {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.productDetails-main-contents-title {
+  font-family: "Baloo Da 2", cursive;
+  font-weight: 600;
+  font-size: 30px;
+}
+.productDetails-main-contents-desc {
+  font-family: "Baloo Da 2";
+  font-weight: 400;
+  font-size: 18px;
+  color: #7c90b8;
+}
+.product-quantity-btns-div {
+  background: #e7eaf0;
+  display: flex;
+  border-radius: 15px !important;
+  padding: 16px 25px;
+}
+.input-group-text {
+  border: none;
+}
+.input-group-text > .product-quantity-minus {
+  color: #df0000;
+}
+.input-group-text > .product-quantity-plus {
+  color: #3bb77b;
+}
+.addToCart-btn {
+  background: #ff5c00;
+  border-radius: 10px;
+  font-size: 22px;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  background: #ff5c00;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .productDetails-main {
+    flex-direction: column;
+  }
+  .productDetails-main-img-div {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}

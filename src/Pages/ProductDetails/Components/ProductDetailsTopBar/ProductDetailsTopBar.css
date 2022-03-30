@@ -1,7 +1,15 @@
+.productDetailsTopBar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .productDetails-customizeBtn {
-  padding: 15px 15px;
+  color: #fff;
+  padding: 10px 15px;
   background: #ff5c00;
-  border-radius: 15px;
+  border-radius: 12px;
   font-weight: 500;
   font-size: 22px;
+  border: none;
 }
