@@ -22,20 +22,22 @@ const ProductDetailsMain = () => {
         </h3>
         <div className="productDetails-main-contents-span-div">
           <span>
-            <img src="/images/counter.png" alt="" /> 30 min
+            <img className="img-fluid" src="/images/counter.png" alt="" /> 30
+            min
           </span>
           <span>
-            <img src="/images/fire.png" alt="" /> 275 calories
+            <img className="img-fluid" src="/images/fire.png" alt="" /> 275
+            calories
           </span>
           <span>
-            <img src="/images/star.png" alt="" /> 4.9
+            <img className="img-fluid" src="/images/star.png" alt="" /> 4.9
           </span>
         </div>
         <p className="productDetails-main-contents-desc">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been.
         </p>
-        <div className="d-flex gap-4 align-items-center input-group">
+        <div className="d-flex gap-4 align-items-center justify-content-center w-auto input-group">
           <div className="product-quantity-btns-div">
             <button
               className="input-group-text"

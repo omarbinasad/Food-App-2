@@ -4,7 +4,7 @@ import ProductDetailsTopBar from "./Components/ProductDetailsTopBar/ProductDetai
 
 const ProductDetails = () => {
   return (
-    <div className="container">
+    <div className="">
       <ProductDetailsTopBar />
       <ProductDetailsMain />
     </div>

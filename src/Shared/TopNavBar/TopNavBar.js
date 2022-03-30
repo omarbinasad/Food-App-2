@@ -1,10 +1,11 @@
 import React from "react";
 import "./TopNavBar.css";
+import Badge from "@mui/material/Badge";
 const TopNavBar = () => {
   return (
     <div className="container">
       <nav className="navbar navbar-default bg-light">
-        <div className="container-fluid">
+        <div className="TopNavBarWraper container-fluid">
           <form className="d-flex has-search">
             <i className="fa fa-search form-control-feedback"></i>
             <input
@@ -16,7 +17,10 @@ const TopNavBar = () => {
           </form>
           <div className="TopNavIconsDiv">
             <i class="fa-solid fa-qrcode"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+
+            <Badge badgeContent={3} size="small" color="warning">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </Badge>
           </div>
         </div>
       </nav>

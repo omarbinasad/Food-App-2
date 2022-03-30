@@ -2,6 +2,7 @@ import React from "react";
 import "./SingleCard.css";
 import Fab from "@mui/material/Fab";
 import AddIcon from "@mui/icons-material/Add";
+import { Link } from "react-router-dom";
 
 const SingleCard = () => {
   return (
@@ -38,7 +39,9 @@ const SingleCard = () => {
       <div className="card-bottom">
         <h3>₹95.00</h3>
         <button className="card-bottom-btn">
-          <i className="fa-solid fa-arrow-right-long"></i>
+          <Link to="/product-details">
+            <i className="fa-solid fa-arrow-right-long"></i>
+          </Link>
         </button>
       </div>
     </div>

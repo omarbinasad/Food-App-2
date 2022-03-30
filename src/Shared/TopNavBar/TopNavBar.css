@@ -1,3 +1,9 @@
+.TopNavBarWraper {
+  padding: 20px 0px 0px 0px;
+}
+.TopNavBarWraper > form {
+  width: 80%;
+}
 .TopNavSearchBar {
   border-radius: 30px;
   border-color: #7c90b89d;
@@ -6,6 +12,7 @@
   box-shadow: none;
   border-color: #7c90b89d;
 }
+
 .has-search .form-control {
   padding-left: 2.375rem;
 }
@@ -28,5 +35,6 @@
   align-items: center;
 }
 .TopNavIconsDiv i {
+  font-size: 25px;
   cursor: pointer;
 }

@@ -1,32 +1,33 @@
 .productDetails-main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 90vh;
 }
 .productDetails-main-img-div {
   display: flex;
   align-items: center;
   justify-content: center;
   /* width: 20%; */
-  margin-top: 30px;
-  margin-right: -170px;
+  margin-bottom: -180px;
 }
 .productDetails-main-img-div img {
   width: 350px;
   z-index: 1;
 }
 .productDetails-main-contents-div {
-  width: 85%;
-  height: 50vh;
+  width: 100%;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  justify-content: center;
+  justify-content: end;
+  align-items: center;
   background: #ffffff;
   box-shadow: -1px 1px 20px rgba(22, 52, 111, 0.15);
-  border-radius: 40px 0px 0px 40px;
-  padding: 30px 30px 30px 200px;
+  border-radius: 40px 40px 0px 0px;
+  padding: 40px;
 }
 
 .productDetails-main-contents-span-div {
@@ -55,7 +56,9 @@
 .product-quantity-btns-div {
   background: #e7eaf0;
   display: flex;
-  border-radius: 15px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 10px !important;
   padding: 16px 25px;
 }
 .input-group-text {
@@ -81,11 +84,81 @@
 }
 
 @media screen and (max-width: 600px) {
+  .productDetails-main-contents-div {
+    padding: 30px;
+  }
   .productDetails-main {
     flex-direction: column;
   }
   .productDetails-main-img-div {
     margin-right: 0;
     margin-top: 0;
+  }
+  /* .productDetails-main-contents-title {
+    font-size: 20px;
+  } */
+  .product-quantity-btns-div {
+    padding: 10px 15px;
+  }
+  .addToCart-btn {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .productDetails-main-contents-div {
+    min-height: 33vh;
+  }
+  .productDetails-main-contents-div p {
+    font-size: 12px;
+  }
+  .productDetails-main {
+    flex-direction: column;
+  }
+  .productDetails-main-img-div {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: -80px;
+  }
+  .productDetails-main-contents-span-div span {
+    font-size: 0.8em;
+  }
+  .productDetails-main-img-div img {
+    width: 60%;
+  }
+  .productDetails-main-contents-title {
+    font-size: 20px;
+  }
+  .product-quantity-btns-div {
+    padding: 2px;
+  }
+  .addToCart-btn {
+    font-size: 18px;
+    padding: 6px;
+  }
+  .input-group-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .productDetails-main-contents-div {
+    min-height: 40vh;
+  }
+  .product-quantity-btns-div {
+    padding: 2px;
+  }
+  .addToCart-btn {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  .input-group-text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .productDetails-main-contents-div {
+    min-height: 45vh;
   }
 }
