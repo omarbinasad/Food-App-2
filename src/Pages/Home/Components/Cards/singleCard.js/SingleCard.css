@@ -3,7 +3,7 @@
   height: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #ffffff;
   border-radius: 12px;
@@ -20,6 +20,7 @@
 .card-middle {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 .card-top > p {
   font-size: 18px;
@@ -31,7 +32,6 @@
 }
 .card-middle-rating-div > i {
   font-size: 28px;
-  margin-right: 10px;
   color: #ffd84f;
 }
 .card-middle-rating-div > h5 {
@@ -42,7 +42,7 @@
 }
 
 .card-middle-img-div img {
-  width: 130%;
+  width: 120%;
 }
 .card-bottom {
   display: flex;
@@ -65,9 +65,11 @@
 }
 /* media queries for mobile phone  */
 @media screen and (max-width: 600px) {
-  .card-top > p,
-  .card-middle-rating-div > i {
+  .card-top > p {
     font-size: 70%;
+  }
+  .card-middle-rating-div > i {
+    font-size: 100%;
   }
   .card-bottom > h3,
   .card-bottom-btn > i {
