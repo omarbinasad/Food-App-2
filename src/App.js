@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home/Home";
+import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import BottomNavBar from "./Shared/BottomNavBar/BottomNavBar";
 import TopNavBar from "./Shared/TopNavBar/TopNavBar";
@@ -12,6 +13,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/product-details" element={<ProductDetails />}></Route>
+          <Route
+            path="/order-customization"
+            element={<OrderCustomization />}
+          ></Route>
         </Routes>
         <BottomNavBar />
       </BrowserRouter>
