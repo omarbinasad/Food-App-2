@@ -12,7 +12,7 @@
 }
 
 .profile-main-div {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .profile-edit-btn-div button {
@@ -88,5 +88,10 @@
 @media screen and (max-width: 768px) {
   .profile-desc-input {
     width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .profile-edit-btn-div button {
+    padding: 5px;
   }
 }
