@@ -3,6 +3,7 @@ import "./App.css";
 import AddToCart from "./Pages/AddToCart/AddToCart";
 import Home from "./Pages/Home/Home";
 import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
+import OrderTracking from "./Pages/OrderTracking/OrderTracking";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import ThanksForOrder from "./Pages/ThanksForOrder/ThanksForOrder";
 import BottomNavBar from "./Shared/BottomNavBar/BottomNavBar";
@@ -21,6 +22,7 @@ function App() {
           ></Route>
           <Route path="/add-to-cart" element={<AddToCart />}></Route>
           <Route path="/thanks-for-order" element={<ThanksForOrder />}></Route>
+          <Route path="/order-tracking" element={<OrderTracking />}></Route>
         </Routes>
         <BottomNavBar />
       </BrowserRouter>

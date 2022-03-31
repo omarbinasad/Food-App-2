@@ -1,0 +1,58 @@
+.order-tracking-main-wraper h2 {
+  font-family: georgia;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+.order-tracking-main-wraper h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.order-tracking-main-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.order-progress-wraper {
+  display: flex;
+  align-items: center;
+}
+.order-progress-wraper li img {
+  width: 65px;
+  height: 65px;
+  background-color: #fe6900;
+  padding: 15px;
+  border-radius: 50%;
+}
+.order-progress-wraper li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.order-progress-wraper li p {
+  font-size: 15px;
+}
+.order-progress-wraper li:nth-child(5) > img {
+  background-color: #7c90b888;
+}
+.order-progress-wraper > span img {
+  margin-top: -40px;
+}
+.order-progress-wraper li:nth-child(3) {
+}
+.bike-img-div {
+  border: 1px solid #fe6900;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 5px;
+}
