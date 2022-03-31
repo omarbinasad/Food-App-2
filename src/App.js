@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import AddToCart from "./Pages/AddToCart/AddToCart";
 import Home from "./Pages/Home/Home";
 import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
@@ -17,6 +18,7 @@ function App() {
             path="/order-customization"
             element={<OrderCustomization />}
           ></Route>
+          <Route path="/add-to-cart" element={<AddToCart />}></Route>
         </Routes>
         <BottomNavBar />
       </BrowserRouter>

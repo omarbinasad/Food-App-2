@@ -1,0 +1,128 @@
+.atcProductList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.atcProductList li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.atcProductName-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 50%;
+}
+.atcProductName-div > p {
+  margin: 0;
+}
+
+.atcProductRight-div {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+.atc-price-action-div {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.atc-price-action-div i {
+  font-size: 22px;
+  color: #df0000;
+  background-color: #ffeaea;
+  padding: 8px;
+  cursor: pointer;
+}
+.atc-price-action-div p {
+  font-family: "Baloo Da 2";
+  margin: 0;
+  font-weight: 600;
+  color: #141e38;
+}
+.atcProductQbtns-div {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #97a9c2b0;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.input-group-text {
+  background-color: transparent;
+  border: none;
+}
+.input-group-text > .product-quantity-minus {
+  color: #df0000;
+}
+.input-group-text > .product-quantity-plus {
+  color: #df0000 !important;
+}
+
+.atc-noteAdd-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: #141e38;
+  border-top: 1px solid #97a9c2b0;
+  border-bottom: 1px solid #97a9c2b0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0px;
+  font-family: "Baloo Da 2";
+  font-weight: 600;
+  cursor: pointer;
+}
+.atc-payment-details li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.atc-payment-details {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.bold-txt {
+  font-weight: 600 !important;
+  color: #141e38 !important;
+}
+.atc-payment-details li h3 span {
+  font-family: "Baloo Da 2";
+  font-weight: 600;
+  color: #fe6900;
+}
+.atc-payment-details li h3 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-family: "Baloo Da 2";
+  font-size: 20px;
+  font-weight: 500;
+  color: #516787;
+  margin: 0;
+}
+
+.atc-payment-details li p {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
