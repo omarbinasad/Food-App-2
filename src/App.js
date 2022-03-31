@@ -4,6 +4,7 @@ import AddToCart from "./Pages/AddToCart/AddToCart";
 import Home from "./Pages/Home/Home";
 import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
+import ThanksForOrder from "./Pages/ThanksForOrder/ThanksForOrder";
 import BottomNavBar from "./Shared/BottomNavBar/BottomNavBar";
 import TopNavBar from "./Shared/TopNavBar/TopNavBar";
 
@@ -19,6 +20,7 @@ function App() {
             element={<OrderCustomization />}
           ></Route>
           <Route path="/add-to-cart" element={<AddToCart />}></Route>
+          <Route path="/thanks-for-order" element={<ThanksForOrder />}></Route>
         </Routes>
         <BottomNavBar />
       </BrowserRouter>
