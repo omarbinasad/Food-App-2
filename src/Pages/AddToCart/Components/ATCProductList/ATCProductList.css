@@ -26,7 +26,7 @@
 }
 
 .atcProductRight-div {
-  width: auto;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -87,6 +87,19 @@
   font-weight: 600;
   cursor: pointer;
 }
+.atc-useWallet-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: transparent;
+  border-top: 1px solid #97a9c2b0;
+  border-bottom: 1px solid #97a9c2b0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0px;
+}
 .atc-payment-details li {
   width: 100%;
   display: flex;
@@ -125,4 +138,157 @@
   width: auto;
   display: flex;
   align-items: center;
+}
+.form-check-input {
+  border-radius: 0px !important;
+  margin: 0;
+  border-color: #000000;
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: #fe6900;
+  border-color: #000000;
+}
+
+.atc-useWallet-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  border-top: 1px solid #97a9c2b0;
+  border-bottom: 1px solid #97a9c2b0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.atc-useWallet-div h3 {
+  display: flex;
+  align-items: center;
+  font-family: "Baloo Da 2";
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+.atc-useWallet-input-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.atc-useWallet-input-div label {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  color: #141e38;
+}
+.atc-useWallet-text-div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.atc-useWallet-text-div p {
+  margin: 0;
+}
+.atc-useWallet-text-div h3 {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  color: #141e38;
+}
+
+.add-table-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add-table-form label {
+  font-family: "georgia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  color: #141e38;
+}
+
+.add-table-form-input {
+  width: 30%;
+  border-bottom: 1px solid #97a9c2b0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  padding: 16px;
+}
+input::placeholder {
+  color: #97a9c2b0;
+}
+.add-adsress-wraper {
+  background: #e6f0fa;
+  margin-top: 70px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-adsress-1st-half i {
+  color: red;
+}
+.add-adsress-1st-half p {
+  margin: 0;
+  color: #516787;
+}
+.add-adsress-1st-half h3 {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #141e38;
+}
+.add-adsress-2nd-half h3 {
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration-line: underline;
+
+  color: #df0000;
+}
+@media screen and (max-width: 768px) {
+  .add-table-form-input {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 20px) and (max-width: 500px) {
+  .atcProductName-div > p {
+    font-size: 12px;
+  }
+  .atcProductName-div > img {
+    width: 20%;
+  }
+  .atc-price-action-div i {
+    font-size: 70%;
+  }
+  .atc-price-action-div {
+    gap: 10px;
+  }
+  .atc-price-action-div p {
+    font-size: 10px;
+  }
+  .atcProductQbtns-div {
+    border: 1px solid #97a9c2b0;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .input-group-text > .product-quantity-minus {
+    font-size: x-small;
+  }
+  .input-group-text > .product-quantity-plus {
+    font-size: x-small;
+  }
 }
