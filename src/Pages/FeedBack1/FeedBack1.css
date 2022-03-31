@@ -1,0 +1,103 @@
+.feedBack-banner {
+  background-image: url("/public/images/fBanner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  z-index: -1;
+}
+.feedBack-half-div-wraper {
+  padding: 50px 0px;
+  margin-top: -50px;
+  z-index: 2;
+  border-radius: 40px 40px 0px 0px;
+  background-color: #f4faff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.feedBack-send-btn {
+  width: 50%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.fb-tab-btns-wraper {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedBack-tab-items {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+.fb-tab-btns-wraper > button {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 10px !important;
+  border: 1px solid #97a9c2b0;
+  color: #8196b3;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.fb-avrgtaste-btn-div {
+  display: flex;
+  justify-content: center;
+}
+.fb-avrgtaste-btn {
+  width: 65%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.feedback-sugestion-txt-div textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 600;
+  background-color: #c0d3ec79;
+  font-size: 15px;
+  color: #97a9c2f6;
+  padding: 15px;
+}
+.feedback-sugestion-txt-div h3 {
+  text-align: center;
+  font-family: georgia;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .feedBack-send-btn {
+    width: 100%;
+  }
+}

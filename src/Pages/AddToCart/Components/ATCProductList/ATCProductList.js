@@ -3,12 +3,35 @@ import "./ATCProductList.css";
 
 const ATCProductList = () => {
   const [ProductQuantity, setProductQuantity] = useState(1);
+  const [ProductQuantity2, setProductQuantity2] = useState(1);
+  const [ProductQuantity3, setProductQuantity3] = useState(1);
 
   const QuantityDecrement = () => {
     setProductQuantity((prevCount) => prevCount - 1);
+    if (ProductQuantity === 0) {
+      setProductQuantity(0);
+    }
   };
   const QuantityIncrement = () => {
     setProductQuantity((prevCount) => prevCount + 1);
+  };
+  const QuantityDecrement2 = () => {
+    setProductQuantity2((prevCount) => prevCount - 1);
+    if (ProductQuantity2 === 0) {
+      setProductQuantity2(0);
+    }
+  };
+  const QuantityIncrement2 = () => {
+    setProductQuantity2((prevCount) => prevCount + 1);
+  };
+  const QuantityDecrement3 = () => {
+    setProductQuantity3((prevCount) => prevCount - 1);
+    if (ProductQuantity3 === 0) {
+      setProductQuantity3(0);
+    }
+  };
+  const QuantityIncrement3 = () => {
+    setProductQuantity3((prevCount) => prevCount + 1);
   };
   return (
     <div>
@@ -52,15 +75,15 @@ const ATCProductList = () => {
                 <button
                   className="input-group-text"
                   type="button"
-                  onClick={QuantityDecrement}
+                  onClick={QuantityDecrement2}
                 >
                   <i className="product-quantity-minus fa-solid fa-minus"></i>
                 </button>
-                <div className="input-group-text">{ProductQuantity}</div>
+                <div className="input-group-text">{ProductQuantity2}</div>
                 <button
                   className="input-group-text"
                   type="button"
-                  onClick={QuantityIncrement}
+                  onClick={QuantityIncrement2}
                 >
                   <i className="product-quantity-plus fa-solid fa-plus"></i>
                 </button>
@@ -80,15 +103,15 @@ const ATCProductList = () => {
                 <button
                   className="input-group-text"
                   type="button"
-                  onClick={QuantityDecrement}
+                  onClick={QuantityDecrement3}
                 >
                   <i className="product-quantity-minus fa-solid fa-minus"></i>
                 </button>
-                <div className="input-group-text">{ProductQuantity}</div>
+                <div className="input-group-text">{ProductQuantity3}</div>
                 <button
                   className="input-group-text"
                   type="button"
-                  onClick={QuantityIncrement}
+                  onClick={QuantityIncrement3}
                 >
                   <i className="product-quantity-plus fa-solid fa-plus"></i>
                 </button>

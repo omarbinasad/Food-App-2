@@ -21,8 +21,10 @@ const BottomNavBar = () => {
         <BottomNavigation
           sx={{
             color: "#7C90B8",
-            backgroundColor: "transparent",
+            backgroundColor: "white",
+            boxShadow: "0px -8px 30px rgba(111, 120, 130, 0.05)",
             height: "70px",
+            borderRadius: "30px 30px 0px 0px",
           }}
           showLabels
           value={value}
