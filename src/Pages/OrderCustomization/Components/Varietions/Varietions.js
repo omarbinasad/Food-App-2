@@ -8,6 +8,7 @@ import Box from "@mui/material/Box";
 import Fab from "@mui/material/Fab";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
+import { useTheme } from "@mui/material/styles";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -44,19 +45,17 @@ function a11yProps(index) {
 }
 const Varietions = () => {
   const [value, setValue] = React.useState(0);
-
+  const theme = useTheme();
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
   return (
     <div>
       <Box sx={{ width: "100%" }}>
-        <Box sx={{ borderBottom: 0 }}>
+        <Box sx={{ width: "100%", borderBottom: 0 }}>
           <Tabs
             sx={{
-              // display: "flex",
-              // justifyContent: "center",
-              // alignItems: "center",
+              width: "100%",
               backgroundColor: "#FF5C00",
             }}
             value={value}
@@ -70,9 +69,9 @@ const Varietions = () => {
                 backgroundSize: "100%",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                width: "105px",
-                height: "62px",
-                marginBottom: "-14px",
+                width: "100px",
+                height: "55px",
+                marginBottom: "-15px",
                 border: "none",
                 backgroundColor: "transparent",
               },
@@ -82,7 +81,12 @@ const Varietions = () => {
               label="Large"
               sx={{ margin: "50px 0px", color: "#fff" }}
               icon={
-                <img width="80px" alt="test avatar" src="images/burger1.png" />
+                <img
+                  className="varietion-tab-img"
+                  width="80px"
+                  alt="test avatar"
+                  src="images/burger1.png"
+                />
               }
               aria-label="phone"
             />
@@ -90,7 +94,12 @@ const Varietions = () => {
               label="Regular"
               sx={{ margin: "50px 0px", color: "#fff" }}
               icon={
-                <img width="80px" alt="test avatar" src="images/burger2.png" />
+                <img
+                  className="varietion-tab-img"
+                  width="80px"
+                  alt="test avatar"
+                  src="images/burger2.png"
+                />
               }
               aria-label="phone"
             />
@@ -98,7 +107,12 @@ const Varietions = () => {
               label="Double"
               sx={{ margin: "50px 0px", color: "#fff" }}
               icon={
-                <img width="80px" alt="test avatar" src="images/burger3.png" />
+                <img
+                  className="varietion-tab-img"
+                  width="80px"
+                  alt="test avatar"
+                  src="images/burger3.png"
+                />
               }
               aria-label="phone"
             />
