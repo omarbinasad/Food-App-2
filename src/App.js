@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import AddToCart from "./Pages/AddToCart/AddToCart";
 import FeedBack1 from "./Pages/FeedBack1/FeedBack1";
+import FeedBackThankyou from "./Pages/FeedBackThankyou/FeedBackThankyou";
 import Home from "./Pages/Home/Home";
 import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
 import OrderTracking from "./Pages/OrderTracking/OrderTracking";
@@ -27,6 +28,10 @@ function App() {
           <Route path="/order-tracking" element={<OrderTracking />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/feedback-1" element={<FeedBack1 />}></Route>
+          <Route
+            path="/feedback-thankyou"
+            element={<FeedBackThankyou />}
+          ></Route>
         </Routes>
         <BottomNavBar />
       </BrowserRouter>

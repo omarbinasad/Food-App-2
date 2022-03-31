@@ -1,0 +1,25 @@
+.feedBack-close-btn {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 10px !important;
+  border: 2px solid #fe6900;
+  color: #fe6900;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.fb-thnq-title {
+  font-family: "georgia";
+  font-weight: 600;
+  font-size: 20px;
+  color: #3a3c3f;
+}
+@media screen and (max-width: 768px) {
+  .feedBack-close-btn {
+    width: 100%;
+  }
+}
