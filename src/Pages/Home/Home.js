@@ -1,4 +1,5 @@
 import React from "react";
+import BottomNavBar from "../../Shared/BottomNavBar/BottomNavBar";
 import TopNavBar from "../../Shared/TopNavBar/TopNavBar";
 import BestOffers from "./Components/BestOffers/BestOffers";
 import Cards from "./Components/Cards/Cards";
@@ -17,6 +18,7 @@ const Home = () => {
         <BestOffers />
         <SubscribeForm />
       </div>
+       <BottomNavBar />
     </>
   );
 };

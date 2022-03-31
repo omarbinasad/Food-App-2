@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import PhotoCamera from "@mui/icons-material/PhotoCamera";
 import Stack from "@mui/material/Stack";
+import BottomNavBar from "../../Shared/BottomNavBar/BottomNavBar";
 
 const Input = styled("input")({
   display: "none",
@@ -78,7 +79,7 @@ const Profile = () => {
           </p>
         </div>
       </div>
-     
+      <BottomNavBar />
     </div>
   );
 };

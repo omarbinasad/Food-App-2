@@ -33,7 +33,7 @@ function App() {
             element={<FeedBackThankyou />}
           ></Route>
         </Routes>
-        <BottomNavBar />
+       
       </BrowserRouter>
     </div>
   );
