@@ -1,1 +1,26 @@
+.varietions-item-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.varietions-item-list > li {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 15px 0px;
+  border-bottom: 1px solid gray;
+}
 
+.varietions-item-list > li > p {
+  text-align: center;
+  width: 90%;
+  font-family: "Baloo Da 2";
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.varietions-item-list > li > p > span {
+  color: #7c90b8;
+  font-size: 20px;
+}

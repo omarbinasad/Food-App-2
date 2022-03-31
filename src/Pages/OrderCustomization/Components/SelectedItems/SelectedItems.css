@@ -1,0 +1,14 @@
+.toast {
+  width: max-content !important;
+  border-color: #7c90b871;
+  box-shadow: none;
+}
+.toasts-div {
+  /* width: 22%; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.toast button {
+  background-color: transparent;
+}
