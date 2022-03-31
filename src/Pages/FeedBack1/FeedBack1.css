@@ -32,6 +32,10 @@
   padding: 15px 20px;
   cursor: pointer;
 }
+.feedBack-send-btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .fb-tab-btns-wraper {
   display: flex;
   gap: 15px;

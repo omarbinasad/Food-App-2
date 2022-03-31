@@ -9,6 +9,7 @@ import Fab from "@mui/material/Fab";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { useTheme } from "@mui/material/styles";
+import { Link } from "react-router-dom";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -221,7 +222,9 @@ const FeedBack1 = () => {
           </div>
         </div>
         <button className="feedBack-send-btn">
-          SEND <i className="fa-solid fa-arrow-right-long"></i>
+          <Link to="/feedback-thankyou">
+            SEND <i className="fa-solid fa-arrow-right-long"></i>
+          </Link>
         </button>
       </div>
     </div>

@@ -1,3 +1,16 @@
+.profile-top-bar {
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.profile-top-bar > a {
+  color: #7c90b8;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .profile-main-div {
   height: 100vh;
 }
@@ -23,12 +36,7 @@
   justify-content: center;
   align-items: center;
 }
-.profile-top-bar {
-  padding: 20px 0px;
-  width: 100%;
-  display: flex;
-  /* justify-content: space-between; */
-}
+
 .profile-top-bar h3 {
   font-family: georgia;
   text-align: center;

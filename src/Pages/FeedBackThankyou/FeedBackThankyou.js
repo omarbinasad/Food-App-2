@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./FeedBackThankyou.css";
 
 const FeedBackThankyou = () => {
@@ -11,7 +12,7 @@ const FeedBackThankyou = () => {
         <p className="fb-thnq-desc"></p>
 
         <button className="feedBack-close-btn">
-          SEND <i className="fa-solid fa-arrow-right-long"></i>
+          Close <i className="fa-solid fa-arrow-right-long"></i>
         </button>
       </div>
     </div>

@@ -1,8 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./OrderTracking.css";
 const OrderTracking = () => {
   return (
     <div>
+      <div className="container order-tracking-top-bar">
+        <Link to="/">
+          <i className="fa-solid fa-arrow-left-long"></i> Back
+        </Link>
+      </div>
       <div className="order-tracking-main-wraper container">
         <h2>Order Tracking</h2>
         <h3>Your food is "On the way"</h3>

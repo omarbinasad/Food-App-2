@@ -1,3 +1,15 @@
+.order-tracking-top-bar {
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+}
+.order-tracking-top-bar > a {
+  color: #7c90b8;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .order-tracking-main-wraper h2 {
   font-family: georgia;
   font-size: 25px;
