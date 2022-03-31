@@ -47,7 +47,7 @@
 }
 
 .profile-img-div {
-  margin-right: -45px;
+  /* margin-right: -45px; */
 }
 
 .profile-desc-input {
@@ -94,4 +94,14 @@
   .profile-edit-btn-div button {
     padding: 5px;
   }
+  .profile-contents-div p {
+    font-size: 60%;
+  }
+  .profile-contents-div h2 {
+    font-size: 80%;
+  }
+  /* .profile-contents-wraper {
+    width: 100%;
+    flex-direction: column;
+  } */
 }

@@ -25,16 +25,23 @@ const Profile = () => {
         <div className="row profile-contents-wraper">
           <div className="col-3"></div>
           <div className="profile-contents-div col-6">
-            <div className="profile-img-div">
+            <div
+              style={{
+                position: "relative",
+              }}
+              className="profile-img-div"
+            >
               <img src="images/profilepic.png" alt="" />
               <label htmlFor="icon-button-file">
                 <Input accept="image/*" id="icon-button-file" type="file" />
                 <IconButton
                   sx={{
+                    position: "absolute",
                     backgroundColor: "white",
                     boxShadow: "0px 2px 5px rgba(28, 41, 65, 0.15)",
-                    top: "40px",
-                    right: "30px",
+                    // top: "50%",
+                    // right: "30px",
+                    marginLeft: "-30px",
                     "&:hover": {
                       backgroundColor: "white",
                     },
