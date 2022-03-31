@@ -4,7 +4,7 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 30px 0px;
 }
 
 .atcProductList li {
@@ -258,6 +258,27 @@ input::placeholder {
 
   color: #df0000;
 }
+.atc-bottom-btns-div {
+  padding: 50px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.atc-bottom-btns-div button {
+  width: 50%;
+  background-color: #fe6900;
+  border-radius: 10px !important;
+  border: none;
+  color: #ffffff;
+  font-family: "Baloo Da 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .add-table-form-input {
     width: 90%;

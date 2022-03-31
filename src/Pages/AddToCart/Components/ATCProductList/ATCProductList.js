@@ -172,6 +172,10 @@ const ATCProductList = () => {
             <h3>+ADD ADDRESS</h3>
           </div>
         </div>
+        <div className="atc-bottom-btns-div">
+          <button>Serve Now</button>
+          <button>Order Online</button>
+        </div>
       </div>
     </div>
   );
