@@ -8,9 +8,8 @@ import OrderCustomization from "./Pages/OrderCustomization/OrderCustomization";
 import OrderTracking from "./Pages/OrderTracking/OrderTracking";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import Profile from "./Pages/Profile/Profile";
+import SplashScreen from "./Pages/SplashScreen/SplashScreen";
 import ThanksForOrder from "./Pages/ThanksForOrder/ThanksForOrder";
-import BottomNavBar from "./Shared/BottomNavBar/BottomNavBar";
-import TopNavBar from "./Shared/TopNavBar/TopNavBar";
 
 function App() {
   return (
@@ -28,12 +27,12 @@ function App() {
           <Route path="/order-tracking" element={<OrderTracking />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
           <Route path="/feedback-1" element={<FeedBack1 />}></Route>
+          <Route path="/splash-screen" element={<SplashScreen />}></Route>
           <Route
             path="/feedback-thankyou"
             element={<FeedBackThankyou />}
           ></Route>
         </Routes>
-       
       </BrowserRouter>
     </div>
   );
